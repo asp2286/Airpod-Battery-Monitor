@@ -8,6 +8,19 @@ permalink: /changelogs
 # Changelogs
 
 {: .important-title }
+> GN-45_Version 22 &emsp;&emsp; Mar 01, 2025
+> * metadata.json: Now compatible with GNOME48
+> * Hide expand and close buttons
+> * Use new orientation property instead of vertical got GNOME48
+> * bt-client: autodetect airpods type/model using productid
+> * Airpod Service: Use the 4 char model detection for all devices
+
+{: .note-title }
+> GN-44_Version 21 &emsp;&emsp; Mar 01, 2025 
+> * bt-client: autodetect airpods type/model using productid
+> * Airpod Service: Use the 4 char model detection for all devices
+
+{: .important-title }
 > GN-45_Version 20 &emsp;&emsp; Feb 12, 2025
 > * Add support to Airpod Max USBC. Credits: favhly
 

@@ -12,7 +12,7 @@ permalink: /
 {: .important-title }
 > Currently supported on Gnome Versions:
 > 
-> `43, 44, 45`
+> `43, 44, 45, 46, 47, 48`
 
 **Airpod Battery Monitor is a Gnome Extension to report AirPods/Beats headphone battery level, using indicator icons as battery meter in system tray and message tray, or using Panel button with PopupMenus**
 <br>
