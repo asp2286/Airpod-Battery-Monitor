@@ -9,9 +9,18 @@
             <default>''</default>
             <summary>default path for panel indicators</summary>
         </key>
-        <key name="gui-interface" type="b">
+        <key name="enable-indicator" type="b">
             <default>false</default>
-            <summary>Select Panel-Popupmenu or Indictor-Message-Tray</summary>
+            <summary>Enable indicator</summary>
         </key>
+        <key name="enable-panel-menu" type="b">
+            <default>true</default>
+            <summary>Enable Panel-Popupmenu</summary>
+        </key>
+        <key name="enable-message-tray" type="b">
+            <default>false</default>
+            <summary>Enable Message tray</summary>
+        </key>
+
     </schema>
 </schemalist>

@@ -4,25 +4,47 @@
     <property name="name">General</property>
     <property name="title" translatable="yes">General</property>
     <property name="icon-name">view-list-symbolic</property>
-    
     <child>
       <object class="AdwPreferencesGroup">
         <property name="title" translatable="yes">Settings</property>
         <child>
-          <object class="AdwActionRow" id="gui_interface_row">
-            <property name="title" translatable="yes">Choose interface style</property>
-            <property name="activatable-widget">gui_interface</property>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Enable indicator</property>
+            <property name="subtitle" translatable="yes">Displays airpods battery level indicator in system tray</property>
+            <property name="activatable-widget">enable_indicator</property>
             <child>
-              <object class="GtkDropDown" id="gui_interface">
+              <object class="GtkSwitch" id="enable_indicator">
                 <property name="valign">center</property>
-                <property name="model">gui_interface_model</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Enable panel button with popup menu on panel</property>
+            <property name="subtitle" translatable="yes">Displays a panel button with popup menu on panel</property>
+            <property name="activatable-widget">enable_panel_menu</property>
+            <child>
+              <object class="GtkSwitch" id="enable_panel_menu">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Show details in message tray</property>
+            <property name="subtitle" translatable="yes">Displays battery level in message tray</property>
+            <property name="activatable-widget">enable_message_tray</property>
+            <child>
+              <object class="GtkSwitch" id="enable_message_tray">
+                <property name="valign">center</property>
               </object>
             </child>
           </object>
         </child>
       </object>
     </child>
-    
     <child>
       <object class="AdwPreferencesGroup" id="model_group">
         <property name="title" translatable="yes">Choose Model of AirPods</property>
