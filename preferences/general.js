@@ -1,5 +1,6 @@
 'use strict';
 import Adw from 'gi://Adw';
+import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import GObject from 'gi://GObject';
 import Gtk from 'gi://Gtk';
@@ -90,7 +91,9 @@ export const  General = GObject.registerClass({
     GTypeName: 'ABM_General',
     Template: GLib.Uri.resolve_relative(import.meta.url, '../ui/general.ui', GLib.UriFlags.NONE),
     InternalChildren: [
-        'gui_interface',
+        'enable_indicator',
+        'enable_panel_menu',
+        'enable_message_tray',
         'model_group',
         'no_paired_row',
     ],
@@ -100,12 +103,29 @@ export const  General = GObject.registerClass({
         this._settings = settings;
         this._deviceItems = new Map();
         this._createDevices();
-        const guiInterface = this._settings.get_boolean('gui-interface') ? 1 : 0;
-        this._gui_interface.set_selected(guiInterface);
+
+        this._settings.bind(
+            'enable-indicator',
+            this._enable_indicator,
+            'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+
+        this._settings.bind(
+            'enable-panel-menu',
+            this._enable_panel_menu,
+            'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+
+        this._settings.bind(
+            'enable-message-tray',
+            this._enable_message_tray,
+            'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+
         this._settings.connect('changed::airpods-list', () => this._createDevices());
-        this._gui_interface.connect('notify::selected', item => {
-            this._settings.set_boolean('gui-interface', item.selected === 1);
-        });
     }
 
     _createDevices() {
