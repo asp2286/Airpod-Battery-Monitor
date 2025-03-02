@@ -7,6 +7,10 @@ permalink: /changelogs
 
 # Changelogs
 
+{: .note-title }
+> GN-44_Version 24 &emsp;&emsp; Mar 01, 2025 
+> * Fix mistake again while importing files
+
 {: .important-title }
 > GN-45_Version 23 &emsp;&emsp; Mar 01, 2025
 > * metadata.json: Now compatible with GNOME48
