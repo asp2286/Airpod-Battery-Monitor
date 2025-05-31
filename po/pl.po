@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: airpod-battery-monitor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-01 23:35-0700\n"
+"PO-Revision-Date: 2025-05-31 01:43\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: airpod-battery-monitor\n"
+"X-Crowdin-Project-ID: 650126\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /po/Airpod-Battery-Monitor.pot\n"
+"X-Crowdin-File-ID: 82\n"
+
+#: lib/airpodPanel.js:18 lib/airpodTrayIndicator.js:37
+msgid "AirPods Battery Monitor"
+msgstr "Monitorowanie baterii AirPods"
+
+#: lib/airpodPanel.js:26
+msgid "Headphone Battery Information"
+msgstr "Informacje o naładowaniu słuchawek"
+
+#: lib/airpodPanel.js:253 lib/airpodTrayIndicator.js:245
+msgid "Scanning..."
+msgstr "Skanowanie..."
+
+#: lib/airpodPanel.js:306 lib/airpodTrayIndicator.js:288
+msgid "Last updated: "
+msgstr "Ostatnia aktualizacja: "
+
+#: preferences/about.js:40
+msgid "GNU General Public License, version 3 or later"
+msgstr "Powszechna licencja publiczna GNU, wersja 3 lub późniejsza"
+
+#: preferences/about.js:47
+#, javascript-format
+msgid "© %s %s"
+msgstr "©️ %s %s"
+
+#: preferences/about.js:48
+#, javascript-format
+msgid "This application comes with absolutely no warranty. See the <a href=\"%s\">%s</a> for details."
+msgstr "Niniejszy program rozpowszechniany jest bez jakiejkolwiek gwarancji. Więcej informacji: <a href=\"%s\">%s</a>."
+
+#: preferences/general.js:72
+msgid "(Removed)"
+msgstr "(Usunięto)"
+
+#: preferences/general.js:73
+msgid "(Paired)"
+msgstr "(Sparowano)"
+
+#: preferences/general.js:74
+msgid "(Connected)"
+msgstr "(Połączono)"
+
+#: ui/about.ui:5
+msgid "About"
+msgstr "O programie"
+
+#: ui/about.ui:75
+msgid "Read me"
+msgstr "Przeczytaj mnie"
+
+#: ui/about.ui:97
+msgid "Report an Issue"
+msgstr "Zgłoś problem"
+
+#: ui/about.ui:114 ui/about.ui:197
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+#: ui/about.ui:136
+msgid "View sources on Github"
+msgstr "Zobacz źródła na GitHub"
+
+#: ui/about.ui:153 ui/about.ui:271
+msgid "Legal"
+msgstr "Informacje prawne"
+
+#: ui/about.ui:217
+msgid "Crowdin"
+msgstr "Crowdin"
+
+#: ui/about.ui:229
+msgid "Online Tutorials"
+msgstr "Poradniki Online"
+
+#: ui/general.ui:5
+msgid "General"
+msgstr "Ogólne"
+
+#: ui/general.ui:10
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: ui/general.ui:13
+msgid "Choose interface style"
+msgstr "Wybierz styl interfejsu"
+
+#: ui/general.ui:28
+msgid "Choose Model of AirPods"
+msgstr "Wybierz model AirPodsów"
+
+#: ui/general.ui:31
+msgid "No AirPods paired!"
+msgstr "Brak sparowanych AirPodsów!"
+
+#: ui/general.ui:38
+msgid "Meter Indicators with Message tray"
+msgstr "Wskaźnik z zasobnikiem wiadomości"
+
+#: ui/general.ui:39
+msgid "Panel Labels and Popup Menu"
+msgstr "Etykieta na panelu z wyskakującym menu"
+
