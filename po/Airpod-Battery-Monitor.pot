@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Airpod Battery Monitor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 23:35-0700\n"
+"POT-Creation-Date: 2025-05-30 19:29-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/airpodPanel.js:18 lib/airpodTrayIndicator.js:37
+#: lib/airpodPanel.js:23 lib/airpodTrayIndicator.js:135
 msgid "AirPods Battery Monitor"
 msgstr ""
 
-#: lib/airpodPanel.js:26
+#: lib/airpodPanel.js:31
 msgid "Headphone Battery Information"
 msgstr ""
 
-#: lib/airpodPanel.js:253 lib/airpodTrayIndicator.js:245
+#: lib/airpodPanel.js:258 lib/airpodTrayIndicator.js:300
 msgid "Scanning..."
 msgstr ""
 
-#: lib/airpodPanel.js:306 lib/airpodTrayIndicator.js:288
+#: lib/airpodPanel.js:311 lib/airpodTrayIndicator.js:343
 msgid "Last updated: "
 msgstr ""
 
@@ -49,15 +49,15 @@ msgid ""
 "href=\"%s\">%s</a> for details."
 msgstr ""
 
-#: preferences/general.js:72
+#: preferences/general.js:73
 msgid "(Removed)"
 msgstr ""
 
-#: preferences/general.js:73
+#: preferences/general.js:74
 msgid "(Paired)"
 msgstr ""
 
-#: preferences/general.js:74
+#: preferences/general.js:75
 msgid "(Connected)"
 msgstr ""
 
@@ -97,26 +97,46 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: ui/general.ui:10
+#: ui/general.ui:9
 msgid "Settings"
 msgstr ""
 
-#: ui/general.ui:13
-msgid "Choose interface style"
+#: ui/general.ui:12
+msgid "Enable indicator"
 msgstr ""
 
-#: ui/general.ui:28
+#: ui/general.ui:13
+msgid "Displays airpods battery level indicator in system tray"
+msgstr ""
+
+#: ui/general.ui:24
+msgid "Enable panel button with popup menu on panel"
+msgstr ""
+
+#: ui/general.ui:25
+msgid "Displays a panel button with popup menu on panel"
+msgstr ""
+
+#: ui/general.ui:36
+msgid "Show details in message tray"
+msgstr ""
+
+#: ui/general.ui:37
+msgid "Displays battery level in message tray"
+msgstr ""
+
+#: ui/general.ui:50
 msgid "Choose Model of AirPods"
 msgstr ""
 
-#: ui/general.ui:31
+#: ui/general.ui:53
 msgid "No AirPods paired!"
 msgstr ""
 
-#: ui/general.ui:38
+#: ui/general.ui:60
 msgid "Meter Indicators with Message tray"
 msgstr ""
 
-#: ui/general.ui:39
+#: ui/general.ui:61
 msgid "Panel Labels and Popup Menu"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: airpod-battery-monitor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 23:35-0700\n"
+"POT-Creation-Date: 2025-05-30 19:29-0700\n"
 "PO-Revision-Date: 2024-09-15 02:29\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
@@ -17,19 +17,19 @@ msgstr ""
 "X-Crowdin-File: /po/Airpod-Battery-Monitor.pot\n"
 "X-Crowdin-File-ID: 82\n"
 
-#: lib/airpodPanel.js:18 lib/airpodTrayIndicator.js:37
+#: lib/airpodPanel.js:23 lib/airpodTrayIndicator.js:135
 msgid "AirPods Battery Monitor"
 msgstr "AirPods Batterimonitor"
 
-#: lib/airpodPanel.js:26
+#: lib/airpodPanel.js:31
 msgid "Headphone Battery Information"
 msgstr "Batteriinformation för hörlur"
 
-#: lib/airpodPanel.js:253 lib/airpodTrayIndicator.js:245
+#: lib/airpodPanel.js:258 lib/airpodTrayIndicator.js:300
 msgid "Scanning..."
 msgstr "Skannar..."
 
-#: lib/airpodPanel.js:306 lib/airpodTrayIndicator.js:288
+#: lib/airpodPanel.js:311 lib/airpodTrayIndicator.js:343
 msgid "Last updated: "
 msgstr "Senast uppdaterad: "
 
@@ -44,18 +44,22 @@ msgstr "©️ %s %s"
 
 #: preferences/about.js:48
 #, javascript-format
-msgid "This application comes with absolutely no warranty. See the <a href=\"%s\">%s</a> for details."
-msgstr "Detta program levereras utan någon form av garanti. Se <a href=\"%s\">%s</a> för detaljer."
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Detta program levereras utan någon form av garanti. Se <a href=\"%s\">%s</a> "
+"för detaljer."
 
-#: preferences/general.js:72
+#: preferences/general.js:73
 msgid "(Removed)"
 msgstr "(Borttagen)"
 
-#: preferences/general.js:73
+#: preferences/general.js:74
 msgid "(Paired)"
 msgstr "(Kopplad)"
 
-#: preferences/general.js:74
+#: preferences/general.js:75
 msgid "(Connected)"
 msgstr "(Ansluten)"
 
@@ -95,27 +99,49 @@ msgstr "Handledningar online"
 msgid "General"
 msgstr "Allmänt"
 
-#: ui/general.ui:10
+#: ui/general.ui:9
 msgid "Settings"
 msgstr "Inställningar"
 
-#: ui/general.ui:13
-msgid "Choose interface style"
-msgstr "Välj stil för gränssnitt"
+#: ui/general.ui:12
+msgid "Enable indicator"
+msgstr ""
 
-#: ui/general.ui:28
+#: ui/general.ui:13
+msgid "Displays airpods battery level indicator in system tray"
+msgstr ""
+
+#: ui/general.ui:24
+msgid "Enable panel button with popup menu on panel"
+msgstr ""
+
+#: ui/general.ui:25
+msgid "Displays a panel button with popup menu on panel"
+msgstr ""
+
+#: ui/general.ui:36
+msgid "Show details in message tray"
+msgstr ""
+
+#: ui/general.ui:37
+msgid "Displays battery level in message tray"
+msgstr ""
+
+#: ui/general.ui:50
 msgid "Choose Model of AirPods"
 msgstr "Välj modell av AirPods"
 
-#: ui/general.ui:31
+#: ui/general.ui:53
 msgid "No AirPods paired!"
 msgstr "Inga kopplade AirPods!"
 
-#: ui/general.ui:38
+#: ui/general.ui:60
 msgid "Meter Indicators with Message tray"
 msgstr "Indikatorer för mätare med meddelandefältet"
 
-#: ui/general.ui:39
+#: ui/general.ui:61
 msgid "Panel Labels and Popup Menu"
 msgstr "Paneletiketter och popup-meny"
 
+#~ msgid "Choose interface style"
+#~ msgstr "Välj stil för gränssnitt"
