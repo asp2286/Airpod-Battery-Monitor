@@ -213,18 +213,6 @@
                             <property name="margin_start">12</property>
                             <property name="margin_end">12</property>
                             <child>
-                              <object class="AdwActionRow" id="row_crowdin">
-                                <property name="title" translatable="yes">Crowdin</property>
-                                <property name="activatable">true</property>
-                                <child>
-                                  <object class="GtkImage">
-                                    <property name="icon-name">adw-external-link-symbolic</property>
-                                    <property name="valign">center</property>
-                                  </object>
-                                </child>
-                              </object>
-                            </child>
-                            <child>
                               <object class="AdwActionRow" id="row_translation_guide">
                                 <property name="title" translatable="yes">Online Tutorials</property>
                                 <property name="activatable">true</property>
