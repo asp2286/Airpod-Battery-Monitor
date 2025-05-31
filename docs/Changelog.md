@@ -7,6 +7,11 @@ permalink: /changelogs
 
 # Changelogs
 
+{: .important-title }
+> GN-45_Version 25 &emsp;&emsp; Jun 06, 2025 
+> * Fix message widget for Gnome48
+> * User can now disable Message widget or indicator.
+
 {: .note-title }
 > GN-44_Version 24 &emsp;&emsp; Mar 01, 2025 
 > * Fix mistake again while importing files

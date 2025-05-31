@@ -14,6 +14,17 @@ permalink: /
 > 
 > `43, 44, 45, 46, 47, 48`
 
+
+{: .warning }
+**Note: This extension has been deprecated in favour of Gnome extension Bluetooth Battery Meter.**
+**Use Bluetooth Battery Meter for battery level reading and ANC control.**
+<br>
+[https://extensions.gnome.org/extension/6670/bluetooth-battery-meter/](https://extensions.gnome.org/extension/6670/bluetooth-battery-meter/)
+
+<br>
+<br>
+<br>
+<br>
 **Airpod Battery Monitor is a Gnome Extension to report AirPods/Beats headphone battery level, using indicator icons as battery meter in system tray and message tray, or using Panel button with PopupMenus**
 <br>
 <br>
