@@ -36,15 +36,19 @@ namespace AirpodBatteryMonitorWindows
 
             var hex = BitConverter.ToString(data).Replace("-", string.Empty).ToLowerInvariant();
             var model = hex.Substring(6, 4);
+            var modelName = DeviceModels.List.FirstOrDefault(m => m.Key == model)?.Text ?? "Unknown";
             var decoded = DecodeManufacturerData(hex);
 
             App.Current.Dispatcher.Invoke(() =>
             {
                 var existing = Devices.FirstOrDefault(d => d.Model == model);
                 if (existing == null)
-                    Devices.Add(new DeviceInfo { Model = model, Data = decoded });
+                    Devices.Add(new DeviceInfo { Model = model, ModelName = modelName, Data = decoded });
                 else
+                {
                     existing.Data = decoded;
+                    existing.ModelName = modelName;
+                }
             });
         }
 
@@ -90,6 +94,7 @@ namespace AirpodBatteryMonitorWindows
     public class DeviceInfo
     {
         public string Model { get; set; } = string.Empty;
+        public string ModelName { get; set; } = string.Empty;
         public DeviceData Data { get; set; } = new DeviceData();
     }
 

@@ -26,5 +26,4 @@
 
 A minimal WPF application is provided under `windows-app/`. It uses Windows Bluetooth APIs to read AirPods advertisements and display battery levels.
 
-Run `dotnet build` inside the folder to build the application on Windows.
-
+Run `dotnet build` using the .NET 9 SDK inside the folder to build the application on Windows.

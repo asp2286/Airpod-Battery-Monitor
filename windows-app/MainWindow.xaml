@@ -6,7 +6,7 @@
         <ListView ItemsSource="{Binding Devices}">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Model" DisplayMemberBinding="{Binding Model}" />
+                    <GridViewColumn Header="Model" DisplayMemberBinding="{Binding ModelName}" />
                     <GridViewColumn Header="Left" DisplayMemberBinding="{Binding Data.LeftLevel}" />
                     <GridViewColumn Header="Right" DisplayMemberBinding="{Binding Data.RightLevel}" />
                     <GridViewColumn Header="Case" DisplayMemberBinding="{Binding Data.CaseLevel}" />
